@@ -6,12 +6,12 @@ org 100h
 
 .DATA
 msg dw 10; mensagem
-msg2 dw 15 ; mensagem                                
+msg2 dw 5 ; mensagem                                
 
 .CODE
              
     mov ax, msg   ;; calculando
-    add ax, msg2
+    sub ax, msg2
     aam
     
     add ax, 3030h
