@@ -12,9 +12,11 @@ msg2 dw 5 ; mensagem
              
     mov ax, msg   ;; calculando
     sub ax, msg2
-    aam
     
-    add ax, 3030h
+    
+    aam           ; 
+                  ;   Convertendo para decimal
+    add ax, 3030h ;
     
     mov dh,al
     mov dl,ah

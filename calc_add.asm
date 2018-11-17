@@ -11,10 +11,12 @@ msg2 dw 15 ; mensagem
 .CODE
              
     mov ax, msg   ;; calculando
-    add ax, msg2
-    aam
+    add ax, msg2  ;; Adicionando um valor
     
-    add ax, 3030h
+    
+    aam             ;
+                    ; Convertendo para decimal o resultado
+    add ax, 3030h   ;
     
     mov dh,al
     mov dl,ah

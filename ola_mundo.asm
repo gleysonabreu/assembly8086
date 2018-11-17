@@ -6,7 +6,7 @@ org 100h
 jmp start
 
 msg: db "Ola, mundo!", 0Dh,0Ah, 24h ; mensagem fixa, os numeros 
-                                                             ; hexadecimais sao retornos em ASCII            
+                                    ; hexadecimais sao retornos em ASCII            
 
 start:    mov dx, msg     ; desloca  mensagem para dx
           mov ah, 09h     ; funcao de impressao e 9
