@@ -37,8 +37,9 @@ org 100h
         mov ah, 01h ;
                     ; Captura o que o usuario digitou
         int 21h     ;
-          
+
         sub ax, 30h ; Subtrai 30h(hexa) do valor para pegar o valor em decimal
+        
           
         mov valor2, ax ; Move o valor de ax para a variavel valor2
         

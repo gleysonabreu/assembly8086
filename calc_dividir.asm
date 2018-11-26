@@ -4,7 +4,7 @@ ORG 100h
 .DATA 
     mensagem1 db 10, 13, "Digite o primeiro numero: $" ; Numero a ser processado
     mensagem2 db 10, 13, "Digite o segunndo numero: $" ; Numero a ser processado   
-    mensagem3 db 10, 13, "O resultado da soma e: $" ;Mensagem final com resultado da soma.
+    mensagem3 db 10, 13, "O resultado da divisao e: $" ;Mensagem final com resultado da soma.
     
     num1 dw ?  ; valor que vem de mensagem1
     num2 dw ?  ; valor que vem de mensagem2                   
